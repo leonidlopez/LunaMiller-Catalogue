@@ -1,0 +1,19 @@
+.italic-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.luna-miller-name {
+    font-weight: bold;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+* {
+    background-color: aquamarine;
+}
