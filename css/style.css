@@ -27,14 +27,15 @@
 }
 
 .btn-primary {
-    background-color: #D8C4B6;
-    border-color: #D8C4B6;
-
+    background-color: #3E5879;
+    border-color: #3E5879;
+    color: #D8C4B6;
 }
 
-.btn-secondary {
+.btn-primary:hover {
+    background-color: #D8C4B6;
     border-color: #D8C4B6;
-    color: #D8C4B6;
+    color: #3E5879;
 }
 
 #luna-miller-image {
