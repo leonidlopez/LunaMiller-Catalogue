@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Luna Miller & Jewelers</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="./css/header.css"/>
-    <title>Luna Miller & Jewelers</title>
+    <link rel="stylesheet" href="./css/icons.css"/>
+    <link rel="stylesheet" href="./css/social.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -16,6 +19,31 @@
 
 </head>
 <body>
+    <section id="navigation-bar">
+        <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/images/luna miller/logo-dorado.png" height="30" alt="Luna Miller search bar icon">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./html/catalog/rings.html">Rings</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./html/catalog/earrings.html">Earrings</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./html/catalog/crosses.html">Crosses</a></li>
+                            <hr class="d-lg-none"/>
+                            <li class="nav-item"><a class="nav-link" href="./html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
     <section id="welcome-page" class="py-0 text-center container">
     <div class="container">
         <div class="px-4 pt-5 my-5 text-center border-bottom">
@@ -56,25 +84,25 @@
                     <h2 class="fw-normal">Rings</h2>
                     <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
                     <p>
-                        <a class="btn btn-primary" href="#">View details »</a>
+                        <a class="btn btn-primary" href="./html/catalog/rings.html">View catalogue »</a>
                     </p>
                 </div>
 
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" src="./assets/images/earings/earing-dn1.png" alt="ring catalogue image" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <h2 class="fw-normal">Heading</h2>
+                    <h2 class="fw-normal">Earrings</h2>
                     <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
                     <p>
-                        <a class="btn btn-primary" href="#">View details »</a>
+                        <a class="btn btn-primary" href="./html/catalog/earrings.html">View catalogue »</a>
                     </p>
                 </div>
 
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" src="./assets/images/rings/ring-dn10.png" alt="ring catalogue image" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <h2 class="fw-normal">Heading</h2>
+                    <h2 class="fw-normal">Crosses</h2>
                     <p>And lastly this, the third column of representative placeholder content.</p>
                     <p>
-                        <a class="btn btn-primary" href="#">View details »</a>
+                        <a class="btn btn-primary" href="./html/catalog/crosses.html">View catalogue »</a>
                     </p>
                 </div>
 
@@ -82,62 +110,7 @@
 
         </div>
     </section>
-
-    <section id="welcome-page-catalogue" class="py-5 text-center container">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-body-secondary">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

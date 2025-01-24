@@ -1,3 +1,14 @@
+* {
+    font-family: Monserrat, sans-serif;
+    color: #F5EFE7;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: transparent;
+}
+
 .italic-text {
     font-style: italic;
 }
@@ -8,12 +19,20 @@
 
 .luna-miller-name {
     font-weight: bold;
+    color: #3E5879;
 }
 
 .rounded-circle {
     border-radius: 50%;
 }
 
-* {
-    background-color: aquamarine;
+.btn-primary {
+    background-color: #D8C4B6;
+    border-color: #D8C4B6;
+
+}
+
+.btn-secondary {
+    border-color: #D8C4B6;
+    color: #D8C4B6;
 }
