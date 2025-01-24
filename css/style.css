@@ -1,8 +1,6 @@
 * {
     font-family: Monserrat, sans-serif;
     color: #F5EFE7;
-    padding: 0;
-    margin: 0;
 }
 
 .container {
@@ -36,6 +34,11 @@
     background-color: #D8C4B6;
     border-color: #D8C4B6;
     color: #3E5879;
+}
+
+div {
+    margin: none;
+    padding: none;
 }
 
 #luna-miller-image {
