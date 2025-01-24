@@ -36,3 +36,8 @@
     border-color: #D8C4B6;
     color: #D8C4B6;
 }
+
+#luna-miller-image {
+    border: none;
+    box-shadow: none;
+}
