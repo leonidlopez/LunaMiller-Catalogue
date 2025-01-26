@@ -1,5 +1,8 @@
-var gramPrice10k = 35.57;
-var gramPrice14k = 49.30;
+const gramPrice10k = 35.57;
+const gramPrice14k = 49.30;
+
+const goldLabor = 1.3;
+const italianGoldLabor = 1.8;
 
 const gold10k = "10k";
 const gold14k = "14k";
@@ -21,13 +24,30 @@ for (var i=0; i < document.querySelectorAll(".price").length; i++) {
 
 // calculate the price of gold based on the karats and weight.
 function calculatePrice(karats, weight, goldType) {
+    // defines the price for gold
     if (goldType === goldTypeRegular) {
-        if (karats === gold10k) { return (gramPrice10k * weight).toFixed(2); }
-        if (karats === gold14k) { return (gramPrice14k * weight).toFixed(2); }
-        else { return "Price not available"; }
-    } else if (goldType === goldTypeItalian) {
-        if (karats === gold10k) { return ((gramPrice10k * weight) * 1.2).toFixed(2); }
-        if (karats === gold14k) { return ((gramPrice14k * weight) * 1.2).toFixed(2); }
-        else { return "Price not available"; }
-    } else { return "Price not available"; }
+        if (karats === gold10k) {
+            return (gramPrice10k * weight).toFixed(2);
+        }
+        if (karats === gold14k) {
+            return (gramPrice14k * weight).toFixed(2);
+        }
+        else {
+            return "Price not available";
+        }
+    }
+    // defines the price for Italian Gold
+    else if (goldType === goldTypeItalian) {
+        if (karats === gold10k) {
+            return ((gramPrice10k * weight) * 1.2).toFixed(2);
+        }
+        if (karats === gold14k) {
+            return ((gramPrice14k * weight) * 1.2).toFixed(2);
+        }
+        else {
+            return "Price not available";
+        }
+    } else {
+        return "Price not available";
+    }
 }
