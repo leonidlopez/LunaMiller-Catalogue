@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+.transparent-text {
+    color: transparent;
+}
+
 .luna-miller-name {
     font-weight: bold;
     color: #3E5879;
